@@ -1082,19 +1082,18 @@
   }
 
   /* ====================== Single post Blog Page ============================ */
-.main-blog .container-2{
+.main-blog .container{
     display: flex;
-    padding-left: 100px;
     padding-top: 80px;
     padding-bottom: 40px;
-    gap: 89.5px;
+    justify-content: space-between;
   }
   
-  .main-blog .container-2 .main-blog-left{
+  .main-blog .container .main-blog-left{
     width: 54%;
   }
   
-  .main-blog .container-2 .main-blog-left>p{
+  .main-blog .container .main-blog-left>p{
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
@@ -1102,7 +1101,7 @@
     color: rgba(127, 127, 127, 1);
   }
   
-  .main-blog .container-2 .main-blog-left .sub-heading{
+  .main-blog .container .main-blog-left .sub-heading{
     font-family: Mulish;
     font-size: 26px;
     font-weight: 400;
@@ -1110,7 +1109,7 @@
     color: rgba(34, 34, 34, 1);
   }
   
-  .main-blog .container-2 .main-blog-left>p:first-child{
+  .main-blog .container .main-blog-left>p:first-child{
     font-family: Mulish;
     font-size: 34px;
     font-weight: 400;
@@ -1119,28 +1118,28 @@
     padding-bottom: 92px;
   }
   
-  .main-blog .container-2 .main-blog-left>img:nth-child(2){
+  .main-blog .container .main-blog-left>img:nth-child(2){
     width: 777px;
     padding-bottom: 60px;
   }
   
-  .main-blog .container-2 .main-blog-left>p:nth-child(3){
+  .main-blog .container .main-blog-left>p:nth-child(3){
     padding-bottom: 24px;
   }
   
-  .main-blog .container-2 .main-blog-left>p:nth-child(4){
+  .main-blog .container .main-blog-left>p:nth-child(4){
     padding-bottom: 18px;
   }
   
-  .main-blog .container-2 .main-blog-left>p:nth-child(5){
+  .main-blog .container .main-blog-left>p:nth-child(5){
     padding-bottom: 22px;
   }
   
-  .main-blog .container-2 .main-blog-left .list-with-tic{
+  .main-blog .container .main-blog-left .list-with-tic{
     padding-bottom: 27px;
   }
   
-  .main-blog .container-2 .main-blog-left .list-with-tic>li{
+  .main-blog .container .main-blog-left .list-with-tic>li{
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
@@ -1149,7 +1148,7 @@
     padding-bottom: 17px;
   }
   
-  .main-blog .container-2 .main-blog-left .list-with-tic>li:before{
+  .main-blog .container .main-blog-left .list-with-tic>li:before{
     content: "";
     background: url(./images/tic-yellow.png) no-repeat;
     background-size: 16px;
@@ -1157,30 +1156,30 @@
     padding: 15px;
   }
   
-  .main-blog .container-2 .main-blog-left .image-flex{
+  .main-blog .container .main-blog-left .image-flex{
     gap: 30px;
     padding-bottom: 60px;
   }
   
-  .main-blog .container-2 .main-blog-left .image-flex>img{
+  .main-blog .container .main-blog-left .image-flex>img{
     width: 373px;
   }
   
-  .main-blog .container-2 .main-blog-left>p:nth-child(8){
+  .main-blog .container .main-blog-left>p:nth-child(8){
     padding-bottom: 24px;
   }
-  .main-blog .container-2 .main-blog-left>p:nth-child(9){
+  .main-blog .container .main-blog-left>p:nth-child(9){
     padding-bottom: 18px;
   }
-  .main-blog .container-2 .main-blog-left>p:nth-child(10){
+  .main-blog .container .main-blog-left>p:nth-child(10){
     padding-bottom: 40px;
   }
   
-  .main-blog .container-2 .main-blog-left .image-flex-2>img:first-child{
+  .main-blog .container .main-blog-left .image-flex-2>img:first-child{
     width: 371px;
   }
   
-  .main-blog .container-2 .main-blog-right>p{
+  .main-blog .container .main-blog-right>p{
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
@@ -1188,20 +1187,20 @@
     color: #222222;
   }
   
-  .main-blog .container-2 .main-blog-right>p:first-child{
+  .main-blog .container .main-blog-right>p:first-child{
     padding-top: 10px;
     padding-bottom: 80px;
   }
   
-  .main-blog .container-2 .main-blog-right>div:nth-child(3){
+  .main-blog .container .main-blog-right>div:nth-child(3){
     padding-top: 30px;
   }
   
-  .main-blog .container-2 .main-blog-right .blog-link{
+  .main-blog .container .main-blog-right .blog-link{
     padding-bottom: 24px;
   }
   
-  .main-blog .container-2 .main-blog-right .blog-link>a{
+  .main-blog .container .main-blog-right .blog-link>a{
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
@@ -1209,7 +1208,7 @@
     color: #222222;
   }
   
-  .main-blog .container-2 .main-blog-right .blog-link>p{
+  .main-blog .container .main-blog-right .blog-link>p{
     font-family: Mulish;
     font-size: 14px;
     font-weight: 400;
@@ -1218,32 +1217,32 @@
     padding-top: 5px;
   }
   
-  .main-blog .container-2 .main-blog-right>p:nth-child(2),
-  .main-blog .container-2 .main-blog-right>p:nth-child(7){
+  .main-blog .container .main-blog-right>p:nth-child(2),
+  .main-blog .container .main-blog-right>p:nth-child(7){
     padding-left: 18px;
     border-left: 4px solid #EDA71D;
     display: inline;
   } 
   
   
-  .main-blog .container-2 .main-blog-right>div:nth-child(6){
+  .main-blog .container .main-blog-right>div:nth-child(6){
     padding-bottom: 57px;
   }
   
-  .main-blog .container-2 .image-holder-box{
+  .main-blog .container .image-holder-box{
     display: flex;
     padding-top: 32px;
     flex-direction: column;
     gap: 30px;
   }
   
-  .main-blog .container-2 .image-holder{
+  .main-blog .container .image-holder{
     padding-top: 103px;
     padding-bottom: 59px;
     width: 370px;
   }
   
-  .main-blog .container-2 .image-holder>p{
+  .main-blog .container .image-holder>p{
     font-family: Mulish;
     font-size: 22px;
     font-weight: 400;
@@ -1252,7 +1251,7 @@
     color: #ffffff;
   }
   
-  .main-blog .container-2 .image-holder-1{
+  .main-blog .container .image-holder-1{
     content: "";
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/blog-info-card-img-5.png');
     background-position: center;
@@ -1260,11 +1259,11 @@
     background-repeat: no-repeat;
   }
   
-  .main-blog .container-2 .image-holder-1>p{
+  .main-blog .container .image-holder-1>p{
     padding: 0 15%;
   }
   
-  .main-blog .container-2 .image-holder-2{
+  .main-blog .container .image-holder-2{
     content: "";
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/blog-info-card-img-2.png');
     background-position: center;
