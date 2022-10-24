@@ -13,6 +13,7 @@
 .container-2 {
     margin: auto;
     max-width: 1480px;
+    min-width: 300px;
     padding: 0 20px;
 }
 
@@ -318,6 +319,7 @@
     justify-content: space-between;
     padding: 90px 20px 115px 20px;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .footer .container .logo img {
@@ -664,6 +666,7 @@
 
 .loge-service-about .container .loge-service-about-details {
     justify-content: space-between;
+    gap: 15px;
 }
 
 .loge-service-about .container .loge-service-about-details>div {
@@ -732,12 +735,12 @@
 }
 
 .loge-service-about .container .loge-service-about-details-3 img {
-    width: inherit;
+    width: 100%;
 }
 
 /*  Why choose us about Segment */
 .why-choose-us-about .container {
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 .why-choose-us-about .container>div:first-child>div:last-child {
@@ -751,7 +754,7 @@
 }
 
 .why-choose-us-about .container .why-choose-us-about-details>div {
-    width: 310px;
+    width: 23%;
 }
 
 .why-choose-us-about .container .why-choose-us-about-details>div>div:first-child {
@@ -810,7 +813,7 @@
 
 /* ===================== Logistic Service Page ============================== */
 .our-specialisation .container {
-    padding: 85px 0;
+    padding: 85px 20px;
 }
 
 .our-specialisation .container .our-specialisation-options {
@@ -835,11 +838,11 @@
 }
 
 .our-specialisation .container .our-specialisation-card-wrapper>div {
-    width: 363px;
+    width: 28%;
 }
 
 .our-specialisation .container .our-specialisation-card-wrapper>div>div:first-child {
-    width: inherit;
+    width: 100%;
     padding-bottom: 30px;
 }
 
@@ -877,6 +880,7 @@
     justify-content: space-between;
     padding-top: 90px;
     padding-bottom: 106px;
+    gap: 20px;
 }
 
 .contact-details .container>div>div:first-child>p:first-child {
@@ -1048,12 +1052,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 69px;
+    column-gap: 15px;
     padding-bottom: 110px;
     align-items: flex-start;
 }
 
 .blog-showcase .container>div {
-    width: 373px;
+    width: 31%;
 }
 
 .blog-showcase .container>div img {
@@ -1139,7 +1144,7 @@
 }
 
 .main-blog .container .main-blog-left>img:nth-child(2) {
-    width: 777px;
+    width: 117%;
     padding-bottom: 60px;
 }
 
@@ -1333,6 +1338,45 @@
 .vehicle-fleet-home .vehicle-fleet-card-wrapper>img {
     top: 25%;
 }
+
+.loge-service-about .container .loge-service-about-details .loge-service-about-details-1 > div:nth-child(2) {
+    padding-bottom: 10px;
+}
+
+.loge-service-about .container .loge-service-about-details .loge-service-about-details-1 > div:first-child {
+    padding-bottom: 15px;
+  }
+
+.loge-service-about .container .loge-service-about-details .loge-service-about-details-1 > div:nth-child(2) > p,
+.loge-service-about .container .loge-service-about-details .loge-service-about-details-1 > div:last-child > p{
+    font-size: 12px;
+}
+
+.why-choose-us-about .container .why-choose-us-about-details > div {
+    width: 40%;
+  }
+
+  .footer .container > div:first-child{
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .main-blog .container .main-blog-left > img:nth-child(2) {
+    width: 100%;
+  }
+
+  .main-blog .container .main-blog-left .image-flex > img,
+  .main-blog .container .main-blog-left .image-flex-2 > img:first-child {
+    width: 48%;
+  }
+
+  .main-blog .container .image-holder{
+    width: 100%;
+  }
+
+  .main-blog .container .main-blog-right{
+    width: 40%;
+  }
     
   }
 
@@ -1404,7 +1448,55 @@
 .vehicle-fleet-home .vehicle-fleet-card-wrapper>img {
     top: 20%;
 }
+
+.loge-service-about .container .loge-service-about-details{
+    flex-wrap: wrap;
+}
+
+.loge-service-about .container .loge-service-about-details>div:first-child{
+    order: 3;
+    width: 100%;
+}
+
+.loge-service-about .container .loge-service-about-details>div:nth-child(2){
+    order: 2;
+    width: 48%;
+}
+
+.loge-service-about .container .loge-service-about-details>div:last-child{
+    order: 1;
+    width: 48%;  
+}
+
+.loge-service-about .container .loge-service-about-details .loge-service-about-details-1 > div:nth-child(2) > p,
+ .loge-service-about .container .loge-service-about-details .loge-service-about-details-1 > div:last-child > p {
+    font-size: 16px;
   }
+
+  .why-choose-us-about .container .why-choose-us-about-details > div {
+    width: 35%;
+  }
+
+  .loge-service-about .container .loge-service-about-details > div:last-child {
+    width: 100%;
+  }
+
+  .our-specialisation .container .our-specialisation-card-wrapper > div {
+    width: 25%;
+  }
+  .main-blog .container{
+    flex-direction: column;
+  }
+
+  .main-blog .container .main-blog-left,
+  .main-blog .container .main-blog-right {
+    width: 100%;
+  }
+
+  .main-blog .container .main-blog-right > p:first-child {
+    padding-bottom: 50px;
+  }
+}
 
    @media only screen and (max-width: 685px){
 
@@ -1520,9 +1612,10 @@
 
 .our-services-home .our-services-card-wrapper>img,
 .vehicle-fleet-home .vehicle-fleet-card-wrapper>img {
-    width: 19px;
+    width: 30px;
+    min-width: 20px;
     position: absolute;
-    top: 25%;
+    top: 30%;
 }
 
 .our-services-home .our-services-card-wrapper>div,
@@ -1577,16 +1670,147 @@
     right: 3%;
 }
 
+.loge-service-about .container .loge-service-about-details>div:first-child{
+    order: 2;
+    width: 100%;
+}
+
+.loge-service-about .container .loge-service-about-details>div:nth-child(2){
+    order: 3;
+    width: 100%;
+}
+
+.loge-service-about .container .loge-service-about-details>div:last-child{
+    order: 1;
+    width: 100%;  
+}
+
+.why-choose-us-about .container .why-choose-us-about-details{
+    row-gap: 30px;
+}
+.why-choose-us-about .container .why-choose-us-about-details > div {
+    width: 100%;
   }
-  @media only screen and (max-width: 320px){
+
+  .our-partners .container .our-partners-details > div > img {
+    width: 100px;
+  }
+
+  .our-partners .container .our-partners-details .arrow-left-2,
+  .our-partners .container .our-partners-details .arrow-right-2{
+    width: 25px;
+  }
+
+  .our-partners .container .our-partners-details .arrow-left-2{
+    left: -12.5px;
+  }
+  
+  .our-partners .container .our-partners-details .arrow-right-2{
+    right: -12.5px;
+  }
+
+  .why-choose-us-about .container > div:first-child > div:last-child {
+    width: 100%;
+  }
+
+  .footer > div:nth-child(1) > div:nth-child(2),
+.footer > div:nth-child(1) > div:nth-child(3){
+    width: 40%;
+  }
+
+  .footer .container .logo img {
+    width: 175px;
+    padding-bottom: 20px;
+  }
+
+  .footer .container > div:first-child {
+    flex-direction: column;
+  }
+
+  .our-specialisation .container .our-specialisation-card-wrapper {
+    gap: 30px;
+  }
+
+  .our-specialisation .container .our-specialisation-card-wrapper > div {
+    width: 45%;
+  }
+
+.contact-details .container > div > div:first-child > p:first-child{
+    font-size: 16px !important; 
+}
+
+.contact-details .container > div > div:last-child > p{
+    font-size: 14px;
+}
+
+.frequent-questions .container,
+.drop-us-line .container{
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-details .container{
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20%;
+}
+.frequent-questions .container .frequent-questions-left>div{
+    padding-right: 0;
+}
+
+.frequent-questions .container .frequent-questions-left>div>p,
+.drop-us-line .container .drop-us-line-left>div>p {
+    font-size: 24px;
+}
+
+.drop-us-line .container .drop-us-line-right>div:first-child {
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 28px;
+}
+
+.drop-us-line .container .drop-us-line-right>div:first-child>div {
+    width: 100%;
+}
+
+.drop-us-line .container .drop-us-line-right {
+    width: 100%;
+}
+
+.blog-showcase .container > div{
+    width: 48%;
+}
+}
+@media only screen and (max-width: 430px){
+    .blog-showcase .container>div {
+        width: 100%;
+      }
+      
+}
+  @media only screen and (max-width: 350px){
     .container {
         margin: auto;
         width: 92%;
+        padding: 0;
     }
 
     .div-header > div:last-child > p {
         font-size: 13px;
       }
+
+      .our-services-home .our-services-card-wrapper>img,
+.vehicle-fleet-home .vehicle-fleet-card-wrapper>img {
+    width: 25px;
+    min-width: 20px;
+    top: 20%;
+}
+
+.footer > div:nth-child(1) > div:nth-child(2), .footer > div:nth-child(1) > div:nth-child(3) {
+    width: 100%;
+  }
+
+  .main-blog .container .main-blog-left .image-flex > img, .main-blog .container .main-blog-left .image-flex-2 > img:first-child {
+    width: 100%;
+  }
 
     /* ===================== Home Page ============================== */
 
@@ -1687,9 +1911,7 @@
 }
 
 .footer .container {
-    justify-content: space-between;
-    padding: 40.5px 0 115px 0;
-    flex-direction: column;
+    padding: 40.5px 0 30px 0;
 }
 
 .footer .container .logo{
@@ -1702,7 +1924,7 @@
 
 .footer .container .social-media {
     gap: 25px;
-    padding-bottom: 60px;
+    padding-bottom: 25px;
 }
 
 .footer .container .social-media img {
@@ -1737,7 +1959,7 @@
 }
 
 .footer .container>div:nth-child(3){
-    padding-bottom: 60px;
+    padding-bottom: 25px;
     padding-top: 23px;
 }
 
@@ -1769,9 +1991,8 @@
 }
 
 .footer .copyright {
-    justify-content: flex-end;
-    padding-right: 20%;
-    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .footer .copyright p {
@@ -2098,17 +2319,11 @@
 }
 
 .our-partners .container .our-partners-details .arrow-left-2 {
-    width: 36px;
-    position: absolute;
-    top: 35%;
-    left: 30px;
+    left: 0;
 }
 
 .our-partners .container .our-partners-details .arrow-right-2 {
-    width: 36px;
-    position: absolute;
-    right: 30px;
-    top: 35%;
+    right: 0;
 }
 
 /* ===================== Logistic Service Page ============================== */
@@ -2176,7 +2391,8 @@
 .contact-details .container {
     justify-content: space-between;
     padding-top: 90px;
-    padding-bottom: 106px;
+    padding-bottom: 60px;
+    padding-left: 0;
 }
 
 .contact-details .container>div>div:first-child>p:first-child {
@@ -2210,25 +2426,12 @@
 /* Frequent questions Segment */
 .frequent-questions .container {
     padding-top: 86px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .frequent-questions .container .frequent-questions-left,
 .drop-us-line .container .drop-us-line-left{
     min-width: 35%;
-}
-
-.frequent-questions .container .frequent-questions-left>div{
-    padding-right: 40%;
-}
-
-.frequent-questions .container .frequent-questions-left>div>p,
-.drop-us-line .container .drop-us-line-left>div>p {
-    font-family: Mulish;
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 37px;
-    color: rgba(34, 34, 34, 1);
 }
 
 .frequent-questions .container .frequent-questions-right li {
@@ -2273,20 +2476,6 @@
 .drop-us-line .container {
     padding-top: 86px;
     padding-bottom: 90px;
-}
-
-.drop-us-line .container .drop-us-line-right {
-    width: 65%;
-}
-
-.drop-us-line .container .drop-us-line-right>div:first-child {
-    width: 100%;
-    justify-content: space-between;
-    padding-bottom: 28px;
-}
-
-.drop-us-line .container .drop-us-line-right>div:first-child>div {
-    width: 48%;
 }
 
 .drop-us-line .container .drop-us-line-right label {
@@ -2352,10 +2541,6 @@
     align-items: flex-start;
   }
   
-  .blog-showcase .container>div {
-    width: 373px;
-  }
-  
   .blog-showcase .container>div img {
     width: 100%;
     padding-bottom: 30px;
@@ -2409,10 +2594,6 @@
     justify-content: space-between;
   }
   
-  .main-blog .container .main-blog-left{
-    width: 54%;
-  }
-  
   .main-blog .container .main-blog-left>p{
     font-family: Mulish;
     font-size: 16px;
@@ -2436,11 +2617,6 @@
     line-height: 37px;
     color: rgba(34, 34, 34, 1);
     padding-bottom: 92px;
-  }
-  
-  .main-blog .container .main-blog-left>img:nth-child(2){
-    width: 777px;
-    padding-bottom: 60px;
   }
   
   .main-blog .container .main-blog-left>p:nth-child(3){
@@ -2477,12 +2653,7 @@
   }
   
   .main-blog .container .main-blog-left .image-flex{
-    gap: 30px;
-    padding-bottom: 60px;
-  }
-  
-  .main-blog .container .main-blog-left .image-flex>img{
-    width: 373px;
+    flex-direction: column;
   }
   
   .main-blog .container .main-blog-left>p:nth-child(8){
@@ -2495,9 +2666,6 @@
     padding-bottom: 40px;
   }
   
-  .main-blog .container .main-blog-left .image-flex-2>img:first-child{
-    width: 371px;
-  }
   
   .main-blog .container .main-blog-right>p{
     font-family: Mulish;
@@ -2554,12 +2722,6 @@
     padding-top: 32px;
     flex-direction: column;
     gap: 30px;
-  }
-  
-  .main-blog .container .image-holder{
-    padding-top: 103px;
-    padding-bottom: 59px;
-    width: 370px;
   }
   
   .main-blog .container .image-holder>p{
