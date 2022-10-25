@@ -1,0 +1,101 @@
+/* =================================================== Reponsive Code ============================================================ */
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .div-header > div:first-child > p {
+    font-size: 30px;
+  }
+
+  .div-header > div:last-child > p {
+    font-size: 18px;
+  }
+
+  .loge-service-home .container > div:last-child {
+    justify-content: center;
+  }
+
+  .loge-service-home .container > div:last-child > div {
+    width: 48% !important;
+  }
+
+  .navbar .container {
+    padding: 20.5px 0 28.8px 0 !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .div-header > div:first-child > p {
+    font-size: 24px;
+  }
+
+  .div-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar .container ul li > a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .uppernav .container .uppernav-logo img {
+    width: 190px;
+  }
+
+  .loge-service-home .container > div:last-child > div {
+    width: 100% !important;
+  }
+
+  .div-header {
+    padding-bottom: 50px;
+  }
+
+  .uppernav .container > div:last-child .show-on-large-screen {
+    display: none;
+  }
+  .uppernav .container > div:last-child  .show-on-small-screen{
+    display: flex !important;
+    align-items: center;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
